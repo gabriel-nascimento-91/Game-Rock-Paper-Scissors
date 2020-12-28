@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Images/rps.ico" type="image/x-icon">
+    <title>Rock-Paper-Scissors Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="scoreboard">
+        <div id="user-label" class="badge">User</div>
+        <div id="comp-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+    <div class="result">
+        <p>Paper covers Rock. You win!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="Images/rock.png" alt="A closed fist">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="Images/paper.png" alt="A hand palm">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="Images/scissors.png" alt="Two fingers forming scissors">
+        </div>
+    </div>
+    <div>
+        <p id="action-message">Make your move!</p>
+    </div>
+
+    <script src="scriptApp.js"></script>
+
+</body>
+
+</html>
