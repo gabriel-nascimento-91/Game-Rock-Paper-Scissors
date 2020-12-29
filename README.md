@@ -8,3 +8,4 @@ This is a rock, paper, scissors game developed with HTML5, CSS3 and JS based on 
 3. Choice identifier for the User and the Computer.
 
 *I added extra functions so that instead of the text being "Rock beats Scissors", "Scissors beats Paper", ... it displays "Rock crushes Scissors", "Scissors cuts Paper", ...
+#### https://gndeoliveira.github.io/Rock-Paper-Scissors/
